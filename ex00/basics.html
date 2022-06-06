@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Basics</title>
+    <style>
+      .clear {
+        clear: both;
+      }
+      body {
+        background-color: pink;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      #main_header {
+        color: white;
+        text-align: center;
+        font-size: 150%;
+      }
+
+      .shops {
+        display: flex;
+        flex-direction: row;
+      }
+
+      .shop_elements {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        padding: 5%;
+        box-sizing: border-box;
+      }
+
+      img {
+        height: 60%;
+        max-width: 100%;
+        box-sizing: border-box;
+      }
+
+      .link {
+        display: block;
+        padding: 1em;
+        text-align: center;
+      }
+
+      .signature {
+        font-family: monospace;
+        text-align: right;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header id="main_header">
+      <h1>Basics projéct</h1>
+    </header>
+
+    <div class="shops">
+      <div class="shop_elements">
+        <img
+          src="https://www.eurostartentreprises.com/images/How_to_start_an_online_business_using_Etsy.jpg"
+          alt="etsy shop image"
+        />
+        <a class="link" href="https://www.etsy.com/" target="_blank"
+          >www.etsy.com</a
+        >
+      </div>
+
+      <div class="shop_elements">
+        <img
+          src="https://images.squarespace-cdn.com/content/v1/5e1336de8c03f756cbef23d8/1578586212346-S20XN4DF8AOR7SYK0GM7/Na%CC%88ytto%CC%88kuva+2020-1-9+kello+18.08.41.png?format=2500w"
+          alt="adlibris shop image"
+        />
+        <a class="link" href="https://www.adlibris.com/" target="_blank"
+          >www.adlibris.com</a
+        >
+      </div>
+    </div>
+
+    <div class="clear"></div>
+    <br />
+    <hr />
+  </body>
+
+  <footer class="signature">
+    <em>&copy; acastano 2022</em>
+  </footer>
+</html>
