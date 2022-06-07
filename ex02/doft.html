@@ -17,20 +17,21 @@
         alt="Day of the 42.png"
       />
       <img id="glass" src="./resources/loupe.png" alt="magnifying glass.png" />
-      <a href="http://www.disney.com" target="_blank">
+      <a href="http://www.disney.com">
         <img
           class="top_icons"
           src="./resources/reload.png"
-          title="Start from the beginning"
           alt="Start from the beginning"
+          title="Start from the beginning"
         />
       </a>
-      <a href="http://www.relaischateaux.com" target="_blank">
+      <a href="http://www.relaischateaux.com">
         <img
+          id="cross"
           class="top_icons"
           src="./resources/close.gif"
-          title="Disconnect"
           alt="Disconnect"
+          title="Disconnect"
         />
       </a>
     </header>
@@ -66,30 +67,66 @@
 
       <div class="middle_menu">
         <img
+          usemap="#image-map"
           id="cluster"
           src="./resources/cluster.jpg"
           alt="cluster"
           title="Cluster"
         />
-        <!-- map -->
+        <map name="image-map">
+          <area
+            target=""
+            alt="Go to Ikea"
+            title="Go to Ikea"
+            href="https://www.ikea.com"
+            coords="405,460,348,348"
+            shape="rect"
+          />
+          <area
+            target=""
+            alt="Go to get some apples"
+            title="Go to get some apples"
+            href="https://www.apple.com"
+            coords="770,408,658,308"
+            shape="rect"
+          />
+          <area
+            target=""
+            alt="Just in case, more apples"
+            title="Just in case, more apples"
+            href="https://www.apple.com"
+            coords="811,325,995,469"
+            shape="rect"
+          />
+        </map>
       </div>
 
       <aside class="right_menu">
         <img id="book" src="./resources/book.png" alt="Book" title="Book" />
         <img id="towel" src="./resources/towel.png" alt="Towel" title="Towel" />
-        <img id="brick" src="./resources/brick.jpg" alt="Brick" title="Brick" />
+        <div
+          id="brick"
+          src="./resources/brick.jpg"
+          alt="Brick"
+          title="Brick"
+        ></div>
       </aside>
 
       <div class="bottom_box">
         <div style="margin-left: 10px; margin-top: 10px">
-          <p>Vous<h2>entrez</h2>alors dans une grande piece remplie</p>
-          <p><h3>d'ordinateurs</h3>...</p>
-          <p><br /><i>Bonjour, vous ^etes nouveau ici ?</i></p>
+          <p>
+            Vous <span class="entrez">entrez </span> alors dans une grande piece
+            remplie <br />
+            d'<span class="ordinateurs">ordinateurs</span>...<br /><i
+              >- Bonjour, vous êtes nouveau ici ?</i
+            >
+          </p>
         </div>
         <p>ONE LINE FOR RESPOND THINGY: FORM</p>
       </div>
     </div>
+    <div style="display: none">
+      <img src="./resources/doft.jpg" alt="hidden image" />
+    </div>
   </body>
 </html>
-
-<!-- use also doft.jpg!!!!! -->

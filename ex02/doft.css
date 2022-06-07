@@ -24,6 +24,8 @@ header {
   box-shadow: 10px 10px 5px black;
   display: block;
   margin: auto;
+  padding-top: 10px;
+  padding-left: 10px;
   /* justify-content: space-between; */
 }
 
@@ -88,19 +90,26 @@ header {
 
 #logo {
   /* top_image */
-  height: 120px;
+  height: 110px;
   float: left;
 }
 #glass {
   /* magnify */
-  margin-left: 660px;
+  /* margin-left: 660px; */
+  margin-left: 700px;
+
   float: left;
 }
 .top_icons {
   /* small */
   width: 20px;
-  /* height: 20px; */
-  float: left;
+  height: 20px;
+  float: right;
+  display: block;
+  margin-right: 7px;
+}
+#cross {
+  margin-top: 80px;
 }
 
 .left_icons {
@@ -115,6 +124,7 @@ header {
 
 #cluster {
   width: 1000px;
+  margin-top: 11px;
 }
 
 #book {
@@ -129,11 +139,11 @@ header {
 #brick {
   width: 118px;
   height: 70px;
+  background: url(./resources/brick.jpg);
+  margin-left: 11px;
 }
 
 .bottom_box {
-  /* format */
-  /* border: 3px solid darkgreen; */
   width: 520px;
   height: 170px;
   background-color: rgba(136, 255, 137, 255);
@@ -146,11 +156,15 @@ header {
   margin-top: 505px;
   text-align: left;
 }
-h2 {
+p {
+  letter-spacing: 0.7px;
+}
+.ordinateurs {
+  text-shadow: 5px 5px 5px rgba(255, 0, 0, 1);
+}
+.entrez {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 32px;
-  font-weight: lighter;
-  display: inline;
 }
 /* 
 
@@ -160,4 +174,7 @@ justify-content: flex-end;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
+
+
+for hidden image display:none doesn't affect the layout
 */
