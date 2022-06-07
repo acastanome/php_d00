@@ -133,8 +133,8 @@ p {
   font-size: 32px;
 }
 input {
-  margin-left: 10px;
   border: solid #9d969d 1px;
+  margin-right: 5px;
 }
 .text_box {
   width: 365px;
